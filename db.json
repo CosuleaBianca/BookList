@@ -1,0 +1,84 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Ender's Game",
+      "author": "Orson Scott Card",
+      "description": "In order to develop a secure defense against a hostile alien race's next attack, government agencies breed child geniuses and train them as soldiers. A brilliant young boy, Andrew Ender Wiggin lives with his kind but distant parents, his sadistic brother Peter, and the person he loves more than anyone else, his sister Valentine. Peter and Valentine were candidates for the soldier-training program but didn't make the cut—young Ender is the Wiggin drafted to the orbiting Battle School for rigorous military training. Ender's skills make him a leader in school and respected in the Battle Room, where children play at mock battles in zero gravity. Yet growing up in an artificial community of young soldiers Ender suffers greatly from isolation, rivalry from his peers, pressure from the adult teachers, and an unsettling fear of the alien invaders. His psychological battles include loneliness, fear that he is becoming like the cruel brother he remembers, and fanning the flames of devotion to his beloved sister. Is Ender the general Earth needs? But Ender is not the only result of the genetic experiments. The war with the Buggers has been raging for a hundred years, and the quest for the perfect general has been underway for almost as long. Ender's two older siblings are every bit as unusual as he is, but in very different ways. Between the three of them lie the abilities to remake a world. If, that is, the world survives.",
+      "numberOfPages": 384,
+      "rating": 2
+    },
+    {
+      "id": 2,
+      "title": "A Game of Thrones: A Song of Ice and Fire: Book One",
+      "author": "George R. R. Martin",
+      "description": "Winter is coming. Such is the stern motto of House Stark, the northernmost of the fiefdoms that owe allegiance to King Robert Baratheon in far-off King’s Landing. There Eddard Stark of Winterfell rules in Robert’s name. There his family dwells in peace and comfort: his proud wife, Catelyn; his sons Robb, Brandon, and Rickon; his daughters Sansa and Arya; and his bastard son, Jon Snow. Far to the north, behind the towering Wall, lie savage Wildings and worse—unnatural things relegated to myth during the centuries-long summer, but proving all too real and all too deadly in the turning of the season. Yet a more immediate threat lurks to the south, where Jon Arryn, the Hand of the King, has died under mysterious circumstances. Now Robert is riding north to Winterfell, bringing his queen, the lovely but cold Cersei, his son, the cruel, vainglorious Prince Joffrey, and the queen’s brothers Jaime and Tyrion of the powerful and wealthy House Lannister—the first a swordsman without equal, the second a dwarf whose stunted stature belies a brilliant mind. All are heading for Winterfell and a fateful encounter that will change the course of kingdoms. Meanwhile, across the Narrow Sea, Prince Viserys, heir of the fallen House Targaryen, which once ruled all of Westeros, schemes to reclaim the throne with an army of barbarian Dothraki—whose loyalty he will purchase in the only coin left to him: his beautiful yet innocent sister, Daenerys.",
+      "numberOfPages": 720,
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "title": "The Mist",
+      "author": "Stephen King",
+      "description": "In the wake of a summer storm, terror descends...David Drayton, his son Billy, and their neighbor Brent Norton join dozens of others and head to the local grocery store to replenish supplies following a freak storm. Once there, they become trapped by a strange mist that has enveloped the town. As the confinement takes its toll on their nerves, a religious zealot, Mrs. Carmody, begins to play on their fears to convince them that this is God’s vengeance for their sins. She insists a sacrifice must be made and two groups—those for and those against—are aligned. Clearly, staying in the store may prove fatal, and the Draytons, along with store employee Ollie Weeks, Amanda Dumfries, Irene Reppler, and Dan Miller, attempt to make their escape. But what’s out there may be worse than what they left behind. This exhilarating novella explores the horror in both the enemy you know—and the one you can only imagine.",
+      "numberOfPages": 176,
+      "rating": 4
+    },
+    {
+      "id": 4,
+      "title": "The Little Prince",
+      "author": "Antoine de Saint-Exupéry",
+      "description": "The Sahara desert is the scenery of Little Prince’s story. The narrator’s plane has crashed there and he has scarcely some food and water to survive. Trying to comprehend what caused the crash, the Little Prince appears. The serious blonde little boy asks to draw him a sheep. The narrator consents to the strange fellow’s request. They soon become friends and the Little Prince informs the pilot that he is from a small planet, the asteroid 325, talks to him about the baobabs, his planet volcanoes and the mysterious rose that grew on his planet. He also talks to him about their friendship and the lie that evoked his journey to other planets. Often puzzled by the grown-ups’ behavior, the little traveler becomes a total and eternal symbol of innocence and love, of responsibility and devotion. Through him we get to see how insightful children are and how grown-ups aren’t. Children use their heart to feel what’s really important, not the eyes. Heart-breaking, funny and thought-provoking, it is an enchanting and endlessly wise fable about the human condition and the power of imagination. A book about both childhood and adulthood, it can be read as a parable, a war story, a classic children's fairy-tale, and many more things besides: The Little Prince is a book for everyone; after all, all grown-ups were children once.",
+      "numberOfPages": 136,
+      "rating": 4
+    },
+    {
+      "id": 5,
+      "title": "The Art of War",
+      "author": "Sun Tzu",
+      "description": "The Art of War is a translation of Sun Tzu’s originally written book on battle strategies by author James Clavell. Sun Tzu believed war to be an essential wrongdoing that must be got rid of whenever it can be. The war should be fought fleetingly to reduce economic decline. Sun Tzu harped on the significance of placement in military tactics. The planning to position an army must be dependent on the stipulations in the physical surroundings and the subjective thoughts of various militants in those conditions. He believed that strategy cannot be considered as planning with respect to glancing through a previously decided list. It is better represented by the fact that it needs speedy and suitable reactions to altering situations. Planning gives results in restrained surroundings. But in case of an altering environment, similar plans come in each other’s ways and give rise to undesired outcomes. The book has been a profound factor in the workings of Eastern and Western military strategies, business planning, legal thought processes, and more.",
+      "numberOfPages": 128,
+      "rating": 3
+    },
+    {
+      "id": 6,
+      "title": "After We Collided",
+      "author": "Ana Todd",
+      "description": "Tessa has everything to lose. Hardin has nothing to lose...except her. AFTER WE COLLIDED...Life will never be the same. After a tumultuous beginning to their relationship, Tessa and Hardin were on the path to making things work. She knew he could be cruel, but when a bombshell revelation is dropped about the origins of their relationship—and Hardin’s mysterious past—Tessa is beside herself. Hardin will always be...Hardin. But is he really the deep, thoughtful guy Tessa fell madly in love with despite his angry exterior, or has he been a stranger all along? She wishes she could walk away. It’s just not that easy. Not with the memory of passionate nights spent in his arms. His electric touch. His hungry kisses. Still, Tessa’s not sure she can endure one more broken promise. She put so much on hold for Hardin—school, friends, her mom, a relationship with a guy who really loved her, and now possibly even a promising new career. She needs to move forward with her life. Hardin knows he made a mistake, possibly the biggest one of his life. He’s not going down without a fight. But can he change? Will he change...for love?",
+      "numberOfPages": 688,
+      "rating": 5
+    },
+    {
+      "id": 7,
+      "title": "Beautiful Disaster: A Novel",
+      "author": "Jamie McGuire",
+      "description": "The new Abby Abernathy is a good girl. She doesn’t drink or swear and has the appropriate number of cardigans in her wardrobe. With the darkness of her past behind her, she believes her freshman year at college is the start of a new beginning. But then she meets Travis Maddox. Lean, cut, and covered in tattoos, Eastern University’s Walking One-Night Stand is exactly what Abby needs to avoid. Intrigued by her resistance to his appeal, Travis tricks her with a simple bet. If he loses, he must remain abstinent for a month. If Abby loses, she must live in his apartment for the same amount of time. Either way, Travis has no idea that he has met his match in this “beautifully sexy, beautifully intense, and beautifully perfect” (Jessica Park, New York Times bestselling author).",
+      "numberOfPages": 432,
+      "rating": 3
+    },
+    {
+      "id": 8,
+      "title": "Hyperion",
+      "author": "Dan Simmons",
+      "description": "On the world called Hyperion, beyond the reach of galactic law, waits a creature called the Shrike. There are those who worship it. There are those who fear it. And there are those who have vowed to destroy it. In the Valley of the Time Tombs, where huge, brooding structures move backward through time, the Shrike waits for them all. On the eve of Armageddon, with the entire galaxy at war, seven pilgrims set forth on a final voyage to Hyperion seeking the answers to the unsolved riddles of their lives. Each carries a desperate hope—and a terrible secret. And one may hold the fate of humanity in his hands.",
+      "numberOfPages": 496,
+      "rating": 4
+    },
+    {
+      "id": 9,
+      "title": "A Fire Upon The Deep",
+      "author": "Vernor Vinge",
+      "description": "Thousands of years in the future, humanity is no longer alone in a universe where a mind's potential is determined by its location in space, from superintelligent entities in the Transcend, to the limited minds of the Unthinking Depths, where only simple creatures, and technology, can function. Nobody knows what strange force partitioned space into these regions of thought, but when the warring Straumli realm use an ancient Transcendent artifact as a weapon, they unwittingly unleash an awesome power that destroys thousands of worlds and enslaves all natural and artificial intelligence. Fleeing this galactic threat, Ravna crash lands on a strange world with a ship-hold full of cryogenically frozen children, the only survivors from a destroyed space-lab. They are taken captive by the Tines, an alien race with a harsh medieval culture, and used as pawns in a ruthless power struggle.",
+      "numberOfPages": 624,
+      "rating": 2
+    },
+    {
+      "id": 10,
+      "title": "Blindsight",
+      "author": "Peter Watts",
+      "description": "Two months since the stars fell... Two months of silence, while a world held its breath. Now some half-derelict space probe, sparking fitfully past Neptune's orbit, hears a whisper from the edge of the solar system: a faint signal sweeping the cosmos like a lighthouse beam. Whatever's out there isn't talking to us. It's talking to some distant star, perhaps. Or perhaps to something closer, something en route. So who do you send to force introductions with unknown and unknowable alien intellect that doesn't wish to be met? You send a linguist with multiple personalities, her brain surgically partitioned into separate, sentient processing cores. You send a biologist so radically interfaced with machinery that he sees x-rays and tastes ultrasound. You send a pacifist warrior in the faint hope she won't be needed. You send a monster to command them all, an extinct hominid predator once called vampire, recalled from the grave with the voodoo of recombinant genetics and the blood of sociopaths. And you send a synthesist—an informational topologist with half his mind gone—as an interface between here and there.",
+      "numberOfPages": 384,
+      "rating": 1
+    }
+  ]
+}

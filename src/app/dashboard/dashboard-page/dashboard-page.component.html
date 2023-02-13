@@ -1,0 +1,21 @@
+<span nz-icon nzType="logout" class="logout" nzTheme="outline" (click)="logout()">LogOut </span>
+<div class="container">
+    <div class="form">
+      <input type="text" nz-input placeholder="Search by book title" [(ngModel)]="searchName" (keyup.enter)="searchByName()"/>
+      <nz-radio-group [(ngModel)]="radioValue" nzButtonStyle="solid" (ngModelChange)="sortBooks()"	>
+        <label nz-radio-button nzValue="A">Title</label>
+        <label nz-radio-button nzValue="B">Author</label>
+        <label nz-radio-button nzValue="C">Number of pages</label>
+        <label nz-radio-button nzValue="D">Rating</label>
+      </nz-radio-group>
+      <button nz-button nzType="primary"(click)="navigateToAddBookPage()">Add</button>
+    </div>
+    <div class="books">
+      <book-card
+        *ngFor="let book of filteredBookList"
+        [book]="book"
+        (clickedMore)="navigateToBookPage(book)"
+      ></book-card>
+    </div>
+  
+  </div>

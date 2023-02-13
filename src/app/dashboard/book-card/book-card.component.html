@@ -1,0 +1,10 @@
+<nz-card [nzTitle]="book.title" [nzExtra]="extraTemplate">
+    <p><b>Author</b>: {{ book.author }}</p>
+    <p><b>Description</b>: {{ book.description }}</p>
+    <p><b>Number of pages</b>: {{ book.numberOfPages }}</p>
+    <nz-rate [ngModel]="book.rating" nzDisabled></nz-rate>
+  </nz-card>
+  <ng-template #extraTemplate>
+    <button nz-button nzType="default" (click)="navigateToBookPage()">More</button>
+  </ng-template>
+  

@@ -1,0 +1,40 @@
+.books {
+  display: grid;
+  width: 70vw;
+  gap: 20px;
+}
+
+.form {
+  display: flex;
+  margin-bottom: 20px;
+
+  input {
+    width: 300px;
+    margin-right: 20px;
+  }
+}
+
+.container {
+  padding: 50px;
+}
+
+.ant-btn-primary {
+  margin-left: 10px;
+  background-color: #998888;
+  border-color: #998888;
+}
+
+.logout {
+  float: right;
+  font-size: 28px;
+  margin: 30px;
+  color: #998888;
+}
+
+.ant-radio-group-solid
+  .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  background-color: #998888;
+}
+.ant-radio-button-wrapper:hover {
+  color: #998888;
+}

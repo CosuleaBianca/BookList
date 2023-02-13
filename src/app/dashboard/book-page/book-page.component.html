@@ -1,0 +1,55 @@
+<form nz-form [formGroup]="form" (ngSubmit)="submitForm()">
+  <nz-form-item>
+    <nz-form-label [nzSpan]="7" nzRequired>Title</nz-form-label>
+    <nz-form-control [nzSpan]="12" nzHasFeedback nzValidatingTip="Validating..." [nzErrorTip]="titleErrorTpl">
+      <input nz-input formControlName="title" placeholder="Book Title" [(ngModel)]="bookName" />
+      <ng-template #titleErrorTpl let-control>
+        <ng-container *ngIf="control.hasError('required')">Book title is required!</ng-container>
+      </ng-template>
+    </nz-form-control>
+  </nz-form-item>
+
+  <nz-form-item>
+    <nz-form-label [nzSpan]="7" nzRequired>Author</nz-form-label>
+    <nz-form-control [nzSpan]="12" nzHasFeedback [nzErrorTip]="authorErrorTpl">
+      <input nz-input formControlName="author" placeholder="Author name" [(ngModel)]="bookAuthor" />
+      <ng-template #authorErrorTpl let-control>
+        <ng-container *ngIf="control.hasError('required')">Author name is required!</ng-container>
+      </ng-template>
+    </nz-form-control>
+  </nz-form-item>
+
+  <nz-form-item>
+    <nz-form-label [nzSpan]="7" nzRequired>Description</nz-form-label>
+    <nz-form-control [nzSpan]="12" nzHasFeedback nzErrorTip="Please write something here!">
+      <nz-textarea-count [nzMaxCharacterCount]="2000">
+        <textarea formControlName="description" nz-input rows="4" placeholder="Book description..." [(ngModel)]="bookDescription" ></textarea>
+      </nz-textarea-count>
+    </nz-form-control>
+  </nz-form-item>
+
+  <nz-form-item>
+    <nz-form-label [nzSpan]="7" nzRequired>Number of pages</nz-form-label>
+    <nz-form-control [nzSpan]="12" nzHasFeedback [nzErrorTip]="numberOfPagesErrorTpl">
+      <nz-input-number formControlName="numberOfPages" [(ngModel)]="bookNumberOfPages" [nzMin]="1" [nzMax]="10000" [nzStep]="1"></nz-input-number>
+      <ng-template #numberOfPagesErrorTpl let-control>
+        <ng-container *ngIf="control.hasError('required')">Number of pages is required!</ng-container>
+      </ng-template>
+    </nz-form-control>
+  </nz-form-item>
+
+  <nz-form-item>
+    <nz-form-label [nzSpan]="7">Rating</nz-form-label>
+    <nz-form-control [nzSpan]="12">
+      <nz-rate formControlName="rating" [(ngModel)]="bookRating"></nz-rate>
+    </nz-form-control>
+  </nz-form-item>
+
+  <nz-form-item>
+    <nz-form-control [nzOffset]="7" [nzSpan]="12">
+      <button class="btnEdit" nz-button nzType="primary" [disabled]="!form.valid">Edit</button>
+      <button class="delete-btn" nz-button nzType="primary" nzDanger (click)="deleteBook()">Delete</button>
+    </nz-form-control>
+  </nz-form-item>
+</form>
+ 

@@ -1,0 +1,22 @@
+[nz-form] {
+  max-width: 1000px;
+  padding: 100px;
+  justify-content: center;
+}
+
+button {
+  margin-left: 8px;
+}
+
+.ant-btn-primary {
+  background-color: #998888;
+  border-color: #998888;
+}
+
+.ant-btn-primary:hover {
+  background-color: #eadeda;
+}
+.ant-btn-primary:disabled {
+  background-color: #fff;
+  border-color: #d9d9d9d9;
+}
